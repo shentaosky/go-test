@@ -1,0 +1,36 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;gotest&gt;">
+    <CLASSES>
+      <root url="file://$USER_HOME$/gopath/src/bapi" />
+      <root url="file://$USER_HOME$/gopath/src/gopkg.in" />
+      <root url="file://$USER_HOME$/gopath/src/code.cloudfoundry.org" />
+      <root url="file://$USER_HOME$/gopath/src/bitbucket.org" />
+      <root url="file://$USER_HOME$/gopath/src/github.com" />
+      <root url="file://$USER_HOME$/gopath/src/k8s.io" />
+      <root url="file://$USER_HOME$/gopath/src/google.golang.org" />
+      <root url="file://$USER_HOME$/gopath/src/go4.org" />
+      <root url="file://$USER_HOME$/gopath/src/golang.org" />
+      <root url="file://$USER_HOME$/gopath/src/cloud.google.com" />
+      <root url="file://$USER_HOME$/gopath/src/speter.net" />
+      <root url="file://$USER_HOME$/gopath/src/collectd.org" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/gopath/src/bapi" />
+      <root url="file://$USER_HOME$/gopath/src/gopkg.in" />
+      <root url="file://$USER_HOME$/gopath/src/code.cloudfoundry.org" />
+      <root url="file://$USER_HOME$/gopath/src/bitbucket.org" />
+      <root url="file://$USER_HOME$/gopath/src/github.com" />
+      <root url="file://$USER_HOME$/gopath/src/k8s.io" />
+      <root url="file://$USER_HOME$/gopath/src/google.golang.org" />
+      <root url="file://$USER_HOME$/gopath/src/go4.org" />
+      <root url="file://$USER_HOME$/gopath/src/golang.org" />
+      <root url="file://$USER_HOME$/gopath/src/cloud.google.com" />
+      <root url="file://$USER_HOME$/gopath/src/speter.net" />
+      <root url="file://$USER_HOME$/gopath/src/collectd.org" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
