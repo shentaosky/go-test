@@ -2,91 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3612af84-090c-4505-b457-94cfb9acd0c4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gotest.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/GOPATH__gotest_.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithom/graph.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithom/quicksort.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithom/searchmaxandmin.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/argstest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atomictest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baidu.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/benchmark/benchmark_test.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/channeltest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/charprint.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chinesetest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clearupvolume.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmdstdpipe.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cocurrenttest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/concurrentcreatevolume.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/createLogicVolume.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/deferpanic.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/defunctest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devmappertest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/directReadfile.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extendstest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/findLongestChain.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/functiontest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/getIpaddr.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/getcurrentdir.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/getcurrenthostip.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/glogtest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/goparallelism.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greptest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hello.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/httptest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inordertraversal.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interface-2.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interfacetest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inttest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lentest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/listtest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lsblkversion.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lvmversiontest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maptest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/meninfoTest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menmorytest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-interface.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nanosecond.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/niltest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/panicrecover.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/panictest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parsejson.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rangeGoroutinue.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ratelimiting.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readfiletest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rectest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reflecttest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sieve.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slicetest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sortedbufunc.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statefulgoroutine.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testDirect.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testRwmutux.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_docker.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_exec.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_json.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_marshal.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_omitempty.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testbool.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testhttp.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testonce.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testparsejson.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testreflect.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timeaftertest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timerstest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trimtest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twoSum.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typepoint.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umounttest.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/version.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workpool.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/argstest.go" afterPath="$PROJECT_DIR$/examples/argstest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/atomictest.go" afterPath="$PROJECT_DIR$/examples/atomictest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/baidu.go" afterPath="$PROJECT_DIR$/examples/baidu.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/channeltest.go" afterPath="$PROJECT_DIR$/examples/channeltest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/charprint.go" afterPath="$PROJECT_DIR$/examples/charprint.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/chinesetest.go" afterPath="$PROJECT_DIR$/examples/chinesetest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/clearupvolume.go" afterPath="$PROJECT_DIR$/examples/clearupvolume.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cmdstdpipe.go" afterPath="$PROJECT_DIR$/examples/cmdstdpipe.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cocurrenttest.go" afterPath="$PROJECT_DIR$/examples/cocurrenttest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/concurrentcreatevolume.go" afterPath="$PROJECT_DIR$/examples/concurrentcreatevolume.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/createLogicVolume.go" afterPath="$PROJECT_DIR$/examples/createLogicVolume.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/deferpanic.go" afterPath="$PROJECT_DIR$/examples/deferpanic.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/defunctest.go" afterPath="$PROJECT_DIR$/examples/defunctest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/devmappertest.go" afterPath="$PROJECT_DIR$/examples/devmappertest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/directReadfile.go" afterPath="$PROJECT_DIR$/examples/directReadfile.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extendstest.go" afterPath="$PROJECT_DIR$/examples/extendstest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/findLongestChain.go" afterPath="$PROJECT_DIR$/examples/findLongestChain.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/functiontest.go" afterPath="$PROJECT_DIR$/examples/functiontest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/getIpaddr.go" afterPath="$PROJECT_DIR$/examples/getIpaddr.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/getcurrentdir.go" afterPath="$PROJECT_DIR$/examples/getcurrentdir.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/getcurrenthostip.go" afterPath="$PROJECT_DIR$/examples/getcurrenthostip.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/glogtest.go" afterPath="$PROJECT_DIR$/examples/glogtest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/goparallelism.go" afterPath="$PROJECT_DIR$/examples/goparallelism.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/greptest.go" afterPath="$PROJECT_DIR$/examples/greptest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/hello.go" afterPath="$PROJECT_DIR$/examples/hello.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/httptest.go" afterPath="$PROJECT_DIR$/examples/httptest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/inordertraversal.go" afterPath="$PROJECT_DIR$/examples/inordertraversal.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interface-2.go" afterPath="$PROJECT_DIR$/examples/interface-2.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interfacetest.go" afterPath="$PROJECT_DIR$/examples/interfacetest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/inttest.go" afterPath="$PROJECT_DIR$/examples/inttest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lentest.go" afterPath="$PROJECT_DIR$/examples/lentest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/listtest.go" afterPath="$PROJECT_DIR$/examples/listtest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lsblkversion.go" afterPath="$PROJECT_DIR$/examples/lsblkversion.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lvmversiontest.go" afterPath="$PROJECT_DIR$/examples/lvmversiontest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/maptest.go" afterPath="$PROJECT_DIR$/examples/maptest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/meninfoTest.go" afterPath="$PROJECT_DIR$/examples/meninfoTest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/menmorytest.go" afterPath="$PROJECT_DIR$/examples/menmorytest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/multi-interface.go" afterPath="$PROJECT_DIR$/examples/multi-interface.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/nanosecond.go" afterPath="$PROJECT_DIR$/examples/nanosecond.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/niltest.go" afterPath="$PROJECT_DIR$/examples/niltest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/panicrecover.go" afterPath="$PROJECT_DIR$/examples/panicrecover.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/panictest.go" afterPath="$PROJECT_DIR$/examples/panictest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/parsejson.go" afterPath="$PROJECT_DIR$/examples/parsejson.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/rangeGoroutinue.go" afterPath="$PROJECT_DIR$/examples/rangeGoroutinue.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ratelimiting.go" afterPath="$PROJECT_DIR$/examples/ratelimiting.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/readfiletest.go" afterPath="$PROJECT_DIR$/examples/readfiletest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/rectest.go" afterPath="$PROJECT_DIR$/examples/rectest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/reflecttest.go" afterPath="$PROJECT_DIR$/examples/reflecttest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sieve.go" afterPath="$PROJECT_DIR$/examples/sieve.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/slicetest.go" afterPath="$PROJECT_DIR$/examples/slicetest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sortedbufunc.go" afterPath="$PROJECT_DIR$/examples/sortedbufunc.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statefulgoroutine.go" afterPath="$PROJECT_DIR$/examples/statefulgoroutine.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/testDirect.txt" afterPath="$PROJECT_DIR$/examples/testDirect.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/testRwmutux.go" afterPath="$PROJECT_DIR$/examples/testRwmutux.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test_docker.go" afterPath="$PROJECT_DIR$/examples/test_docker.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test_exec.go" afterPath="$PROJECT_DIR$/examples/test_exec.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test_json.go" afterPath="$PROJECT_DIR$/examples/test_json.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test_marshal.go" afterPath="$PROJECT_DIR$/examples/test_marshal.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test_omitempty.go" afterPath="$PROJECT_DIR$/examples/test_omitempty.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/testbool.go" afterPath="$PROJECT_DIR$/examples/testbool.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/testhttp.go" afterPath="$PROJECT_DIR$/examples/testhttp.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/testonce.go" afterPath="$PROJECT_DIR$/examples/testonce.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/testparsejson.go" afterPath="$PROJECT_DIR$/examples/testparsejson.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/testreflect.go" afterPath="$PROJECT_DIR$/examples/testreflect.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/timeaftertest.go" afterPath="$PROJECT_DIR$/examples/timeaftertest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/timerstest.go" afterPath="$PROJECT_DIR$/examples/timerstest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/trimtest.go" afterPath="$PROJECT_DIR$/examples/trimtest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/twoSum.go" afterPath="$PROJECT_DIR$/examples/twoSum.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/typepoint.go" afterPath="$PROJECT_DIR$/examples/typepoint.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/umounttest.go" afterPath="$PROJECT_DIR$/examples/umounttest.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/version.go" afterPath="$PROJECT_DIR$/examples/version.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/workpool.go" afterPath="$PROJECT_DIR$/examples/workpool.go" />
     </list>
     <ignored path="go.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -108,7 +95,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="test_json.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_json.go">
+        <entry file="file://$PROJECT_DIR$/examples/test_json.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2112">
               <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
@@ -120,7 +107,7 @@
         </entry>
       </file>
       <file leaf-file-name="trimtest.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trimtest.go">
+        <entry file="file://$PROJECT_DIR$/examples/trimtest.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="80" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="80" />
@@ -132,7 +119,7 @@
         </entry>
       </file>
       <file leaf-file-name="extendstest.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extendstest.go">
+        <entry file="file://$PROJECT_DIR$/examples/extendstest.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1008">
               <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
@@ -144,7 +131,7 @@
         </entry>
       </file>
       <file leaf-file-name="argstest.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/argstest.go">
+        <entry file="file://$PROJECT_DIR$/examples/argstest.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
               <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
@@ -154,7 +141,7 @@
         </entry>
       </file>
       <file leaf-file-name="maptest.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/maptest.go">
+        <entry file="file://$PROJECT_DIR$/examples/maptest.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
               <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
@@ -164,7 +151,7 @@
         </entry>
       </file>
       <file leaf-file-name="findLongestChain.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/findLongestChain.go">
+        <entry file="file://$PROJECT_DIR$/examples/findLongestChain.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="854">
               <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
@@ -173,11 +160,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createLogicVolume.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/createLogicVolume.go">
+      <file leaf-file-name="createLogicVolume.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/createLogicVolume.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testDirect.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/testDirect.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -188,16 +185,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3192">
               <caret line="133" column="5" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="time.go" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/time/time.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18624">
-              <caret line="776" column="5" selection-start-line="776" selection-start-column="5" selection-end-line="776" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -363,6 +350,20 @@
               <option name="myItemId" value="gotest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gotest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gotest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -384,6 +385,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/examples" />
       <recent name="$PROJECT_DIR$/algorithom" />
       <recent name="$PROJECT_DIR$/benchmark" />
     </key>
@@ -942,13 +944,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/go/src/runtime/debug.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/go/src/os/signal/signal_unix.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="744">
@@ -991,21 +986,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deferpanic.go">
+    <entry file="file://$PROJECT_DIR$/examples/deferpanic.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inordertraversal.go">
+    <entry file="file://$PROJECT_DIR$/examples/inordertraversal.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1008">
           <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/httptest.go">
+    <entry file="file://$PROJECT_DIR$/examples/httptest.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
@@ -1019,7 +1014,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurrentcreatevolume.go">
+    <entry file="file://$PROJECT_DIR$/examples/concurrentcreatevolume.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1033,28 +1028,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cocurrenttest.go">
+    <entry file="file://$PROJECT_DIR$/examples/cocurrenttest.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="21" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multi-interface.go">
+    <entry file="file://$PROJECT_DIR$/examples/multi-interface.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/niltest.go">
+    <entry file="file://$PROJECT_DIR$/examples/niltest.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clearupvolume.go">
+    <entry file="file://$PROJECT_DIR$/examples/clearupvolume.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -1075,7 +1070,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baidu.go">
+    <entry file="file://$PROJECT_DIR$/examples/baidu.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="31" selection-end-column="14" />
@@ -1089,21 +1084,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functiontest.go">
+    <entry file="file://$PROJECT_DIR$/examples/functiontest.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nanosecond.go">
+    <entry file="file://$PROJECT_DIR$/examples/nanosecond.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atomictest.go">
+    <entry file="file://$PROJECT_DIR$/examples/atomictest.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
@@ -1125,28 +1120,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/devmappertest.go">
+    <entry file="file://$PROJECT_DIR$/examples/devmappertest.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goparallelism.go">
+    <entry file="file://$PROJECT_DIR$/examples/goparallelism.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chinesetest.go">
+    <entry file="file://$PROJECT_DIR$/examples/chinesetest.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/menmorytest.go">
+    <entry file="file://$PROJECT_DIR$/examples/menmorytest.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
@@ -1161,7 +1156,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/meninfoTEst.go" />
-    <entry file="file://$PROJECT_DIR$/meninfoTest.go">
+    <entry file="file://$PROJECT_DIR$/examples/meninfoTest.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="23" selection-end-column="9" />
@@ -1175,7 +1170,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rangeGoroutinue.go">
+    <entry file="file://$PROJECT_DIR$/examples/rangeGoroutinue.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
@@ -1199,7 +1194,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmdstdpipe.go">
+    <entry file="file://$PROJECT_DIR$/examples/cmdstdpipe.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11664">
           <caret line="487" column="5" selection-start-line="487" selection-start-column="5" selection-end-line="487" selection-end-column="5" />
@@ -1240,7 +1235,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trimtest.go">
+    <entry file="file://$PROJECT_DIR$/examples/trimtest.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="80" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="80" />
@@ -1250,7 +1245,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_json.go">
+    <entry file="file://$PROJECT_DIR$/examples/test_json.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2112">
           <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
@@ -1261,7 +1256,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/extendJson.json" />
-    <entry file="file://$PROJECT_DIR$/extendstest.go">
+    <entry file="file://$PROJECT_DIR$/examples/extendstest.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1008">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
@@ -1271,7 +1266,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/argstest.go">
+    <entry file="file://$PROJECT_DIR$/examples/argstest.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
@@ -1279,7 +1274,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maptest.go">
+    <entry file="file://$PROJECT_DIR$/examples/maptest.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
@@ -1287,7 +1282,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/findLongestChain.go">
+    <entry file="file://$PROJECT_DIR$/examples/findLongestChain.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="854">
           <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
@@ -1295,10 +1290,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/createLogicVolume.go">
+    <entry file="file://$PROJECT_DIR$/examples/createLogicVolume.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/testDirect.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
