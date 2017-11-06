@@ -14,6 +14,13 @@ type mutexLock struct {
 	mutex_gold   *sync.Mutex
 }
 
+const (
+	Gold_Device = "/dev/mapper/gold_vg-convoy_Linear_gold_data"
+	Silver_Device = "/dev/mapper/silver_vg-convoy_Linear_silver_data"
+	Iron_Device = "/dev/mapper/iron_vg-convoy_Stripe_iron_data"
+)
+
+
 func main() {
 	var mutex = mutexLock{
 		mutex_bronze: &sync.Mutex{},
@@ -51,13 +58,13 @@ func main() {
 func (mutex *mutexLock) createBronzeVolume(id string, stop chan int) {
 	mutex.mutex_bronze.Lock()
 	defer mutex.mutex_bronze.Unlock()
-	err := exec.Command("sh", "-c", "dmsetup message /dev/mapper/convoy_bronze 0 "+fmt.Sprintf("'create_thin %s'", id)).Run()
+	err := exec.Command("sh", "-c", "dmsetup message /dev/mapper/iron_vg-convoy_Stripe_iron_data 0 "+fmt.Sprintf("'create_thin %s'", id)).Run()
 	if err != nil {
 		fmt.Println(err)
 		stop <- 0
 		return
 	}
-	err = exec.Command("sh", "-c", "dmsetup create bronze_volume_"+id+" --table '0 131072 thin /dev/mapper/convoy_bronze "+id+"'").Run()
+	err = exec.Command("sh", "-c", "dmsetup create bronze_volume_"+id+" --table '0 131072 thin /dev/mapper/iron_vg-convoy_Stripe_iron_data "+id+"'").Run()
 	if err != nil {
 		fmt.Println(err)
 		stop <- 0
@@ -70,13 +77,13 @@ func (mutex *mutexLock) createBronzeVolume(id string, stop chan int) {
 func (mutex *mutexLock) createSilverVolume(id string, stop chan int) {
 	mutex.mutex_silver.Lock()
 	defer mutex.mutex_silver.Unlock()
-	err := exec.Command("sh", "-c", "dmsetup message /dev/mapper/convoy_silver 0 "+fmt.Sprintf("'create_thin %s'", id)).Run()
+	err := exec.Command("sh", "-c", "dmsetup message /dev/mapper/silver_vg-convoy_Linear_silver_data 0 "+fmt.Sprintf("'create_thin %s'", id)).Run()
 	if err != nil {
 		fmt.Println(err)
 		stop <- 0
 		return
 	}
-	err = exec.Command("sh", "-c", "dmsetup create silver_volume_"+id+" --table '0 131072 thin /dev/mapper/convoy_silver "+id+"'").Run()
+	err = exec.Command("sh", "-c", "dmsetup create silver_volume_"+id+" --table '0 131072 thin /dev/mapper/silver_vg-convoy_Linear_silver_data "+id+"'").Run()
 	if err != nil {
 		fmt.Println(err)
 		stop <- 0
@@ -89,13 +96,13 @@ func (mutex *mutexLock) createSilverVolume(id string, stop chan int) {
 func (mutex *mutexLock) createGoldVolume(id string, stop chan int) {
 	mutex.mutex_gold.Lock()
 	defer mutex.mutex_gold.Unlock()
-	err := exec.Command("sh", "-c", "dmsetup message /dev/mapper/convoy_gold 0 "+fmt.Sprintf("'create_thin %s'", id)).Run()
+	err := exec.Command("sh", "-c", "dmsetup message /dev/mapper/gold_vg-convoy_Linear_gold_data 0 "+fmt.Sprintf("'create_thin %s'", id)).Run()
 	if err != nil {
 		fmt.Println(err)
 		stop <- 0
 		return
 	}
-	err = exec.Command("sh", "-c", "dmsetup create gold_volume_"+id+" --table '0 131072 thin /dev/mapper/convoy_gold "+id+"'").Run()
+	err = exec.Command("sh", "-c", "dmsetup create gold_volume_"+id+" --table '0 131072 thin /dev/mapper/gold_vg-convoy_Linear_gold_data "+id+"'").Run()
 	if err != nil {
 		fmt.Println(err)
 		stop <- 0
@@ -115,7 +122,7 @@ func (mutex *mutexLock) deleteBronzeVolume(id int, stop chan int) {
 		stop <- 0
 		return
 	}
-	err = devicemapper.DeleteDevice("/dev/mapper/convoy_bronze", id)
+	err = devicemapper.DeleteDevice("/dev/mapper/iron_vg-convoy_Stripe_iron_data", id)
 	if err != nil {
 		fmt.Println(err)
 		stop <- 0
@@ -134,7 +141,7 @@ func (mutex *mutexLock) deleteSilverVolume(id int, stop chan int) {
 		stop <- 0
 		return
 	}
-	err = devicemapper.DeleteDevice("/dev/mapper/convoy_silver", id)
+	err = devicemapper.DeleteDevice("/dev/mapper/silver_vg-convoy_Linear_silver_data", id)
 	if err != nil {
 		fmt.Println(err)
 		stop <- 0
@@ -154,7 +161,7 @@ func (mutex *mutexLock) deleteGoldVolume(id int, stop chan int) {
 		stop <- 0
 		return
 	}
-	err = devicemapper.DeleteDevice("/dev/mapper/convoy_gold", id)
+	err = devicemapper.DeleteDevice("/dev/mapper/gold_vg-convoy_Linear_gold_data", id)
 	if err != nil {
 		fmt.Println(err)
 		stop <- 0
