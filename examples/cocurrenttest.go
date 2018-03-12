@@ -2,12 +2,17 @@ package main
 
 import (
 	"fmt"
+	//"sync"
+	"runtime"
+	"runtime/debug"
 	"sync"
 )
 
-const maxVolumeNum = 10
+const maxVolumeNum = 50
 
 func main() {
+	fmt.Println(runtime.GOMAXPROCS(4))
+	fmt.Println(debug.SetMaxThreads(5))
 	wg := sync.WaitGroup{}
 	for i := 0; i < maxVolumeNum; i++ {
 		volName := fmt.Sprintf("volume_%d", i)

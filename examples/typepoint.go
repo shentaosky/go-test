@@ -18,6 +18,11 @@ func (type1) test() {
 func main() {
 	st := type1{var1: 12, var2: "me"}
 	ST := type2{POINT: &st}
+	testPoint := &type2{}
+	if testPoint == nil {
+		fmt.Println("testpoint is nil")
+	}
+	fmt.Println(testPoint.POINT)
 	ST.POINT.test()
 	//test()   //ERROR: Undefine
 	st.test()

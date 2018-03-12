@@ -17,15 +17,18 @@ func main() {
 	fmt.Println(data)
 }
 
+// 从某一个数开始作为基准点, 基准点左边的数小于它, 右边的数大于它, 将数组划分成了两个子数组,
+// 每个子数组再继续做这个操作.
 func quickSort(data []int, begin, end int) {
 	if begin > end {
 		return
 	}
-	mid := partition(data, begin, end)
+	mid := partitiontest(data, begin, end)
 	quickSort(data, 0, mid-1)
 	quickSort(data, mid+1, end)
 }
 
+// 这里选最后一个数做基准点
 func partition(data []int, begin, end int) int {
 	mid := begin
 	for j := begin; j < end; j++ {
@@ -45,4 +48,18 @@ func swap(data []int, i, j int) {
 	data[i] ^= data[j]
 	data[j] ^= data[i]
 	data[i] ^= data[j]
+}
+
+// 找任意一个基准点都可以, 这金额里选第一个数做基准点
+func partitiontest(data []int, begin, end int) int {
+	j := begin
+	for i := begin + 1; i <= end; i++ {
+		if data[i] < data[j] {
+			swap(data, j, i)
+			// 可以少交换几次, 但是这样写我更能理解一点
+			swap(data, j+1, i)
+			j++
+		}
+	}
+	return j
 }
