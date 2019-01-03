@@ -42,6 +42,7 @@ func main() {
     //             5   7
 }
 
+// 深度优先和先序遍历
 func DepthSearchAndPreorder(root *util.Node) {
     if root == nil {
         return
@@ -62,6 +63,7 @@ func DepthSearchAndPreorder(root *util.Node) {
     fmt.Println()
 }
 
+// 反转二叉树
 func reverseTree(node *util.Node) {
     if node == nil {
         return

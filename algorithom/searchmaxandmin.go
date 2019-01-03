@@ -13,7 +13,7 @@ func main() {
 		data = append(data, rand.Intn(10000))
 	}
 	fmt.Println(data)
-	max, min := search(data, 0, Length-1)
+	max, min := search2(data, 0, Length-1)
 	fmt.Println("max: ", max, ", min: ", min)
 }
 
@@ -30,6 +30,20 @@ func search(data []int, begin, end int) (int, int) {
 	}
 	if minLeft < minRight {
 		min = minLeft
+	}
+	return max, min
+}
+
+func search2(data []int, begin, end int) (int, int) {
+	max := data[begin]
+	min := max
+	for _, d := range data {
+		if d > max {
+			max = d
+		}
+		if d < min {
+			min = d
+		}
 	}
 	return max, min
 }

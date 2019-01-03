@@ -14,7 +14,6 @@
       <root url="file://$USER_HOME$/gopath/src/speter.net" />
       <root url="file://$USER_HOME$/gopath/src/collectd.org" />
     </CLASSES>
-    <JAVADOC />
     <SOURCES>
       <root url="file://$USER_HOME$/gopath/src/bapi" />
       <root url="file://$USER_HOME$/gopath/src/gopkg.in" />

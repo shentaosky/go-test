@@ -37,12 +37,12 @@ func BenchmarkFib10(b *testing.B) { benchmarkFib(10, b) }
 func BenchmarkFib20(b *testing.B) { benchmarkFib(20, b) }
 func BenchmarkFib40(b *testing.B) { benchmarkFib(40, b) }
 
-func BenchmarkFibWrong(b *testing.B) {
-	for n := 0; n < b.N; n++ {
-		Fib(n)
-	}
-}
-
-func BenchmarkFibWrong2(b *testing.B) {
-	Fib(b.N)
-}
+//func BenchmarkFibWrong(b *testing.B) {
+//	for n := 0; n < b.N; n++ {
+//		Fib(n)
+//	}
+//}
+//
+//func BenchmarkFibWrong2(b *testing.B) {
+//	Fib(b.N)
+//}

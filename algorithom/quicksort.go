@@ -23,7 +23,7 @@ func quickSort(data []int, begin, end int) {
 	if begin > end {
 		return
 	}
-	mid := partitiontest(data, begin, end)
+	mid := partitiontest2(data, begin, end)
 	quickSort(data, 0, mid-1)
 	quickSort(data, mid+1, end)
 }
@@ -61,5 +61,18 @@ func partitiontest(data []int, begin, end int) int {
 			j++
 		}
 	}
+	return j
+}
+
+func partitiontest2(data []int, begin, end int) int {
+	benchmark := begin
+	j := begin
+	for i := begin+1; i <= end; i++ {
+		if data[i] < data[benchmark] {
+			j++
+			swap(data, i ,j)
+		}
+	}
+	swap(data, benchmark, j)
 	return j
 }
