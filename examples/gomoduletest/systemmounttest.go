@@ -1,4 +1,4 @@
-package main
+package gomoduletest
 
 import "k8s.io/kubernetes/pkg/util/mount"
 

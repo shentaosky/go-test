@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+	"k8s.io/api/apps/v1"
+
 	//"io"
 	//"log"
 	"io"
@@ -471,19 +473,6 @@ func waitPVCDeleted() {
 	}
 }
 
-func waitStartContainer() {
-	t1 := time.NewTicker(time.Second)
-	t2 := time.NewTicker(time.Second * 30)
-	for {
-		select {
-		case <-t1.C:
-			fmt.Println("start convoy ...")
-		case <-t2.C:
-			fmt.Println("start convoy time out")
-			return
-		}
-	}
-}
 
 func execCmd(commmand string, args []string) (int, error) {
 	cmd := exec.Command(commmand, args...)

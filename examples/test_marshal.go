@@ -3,38 +3,38 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"io/ioutil"
 )
 
 type Project struct {
 	Name string `json:"name"`
 	Url  string `json:"url"`
 	Docs string `json:"docs,omitempty"`
+	TBool bool `tbool,omitempty`
 }
 
 func main() {
-	p1 := Project{
-		Url: "https://github.com/headwindfly/clevergo",
-	}
+	p1 := Project{}
 
-	data, err := json.Marshal(p1)
+	data, err := ioutil.ReadFile("/Users/tashen/work/devs/src/github.com/go-test/examples/testMarshal.json")
 	if err != nil {
 		panic(err)
 	}
 
-	// p1 没有为Docs赋值，这里打印出来不会出现Docs的字段
-	fmt.Printf("%s\n", data)
-
-	p2 := Project{
-		Name: "CleverGo高性能框架",
-		Url:  "https://github.com/headwindfly/clevergo",
-		Docs: "https://github.com/headwindfly/clevergo/tree/master/docs",
-	}
-
-	data2, err := json.Marshal(p2)
+	err = json.Unmarshal(data, &p1)
 	if err != nil {
 		panic(err)
 	}
 
 	// p2 则会打印所有
-	fmt.Printf("%s\n", data2)
+	if p1.TBool{
+		fmt.Printf("%v %v\n", p1.TBool, p1)
+	}
+
+	var str int
+	str = 1 << 1 & 0x01
+	d := str
+	//i := d | 0x01
+	fmt.Println(d)
+
 }

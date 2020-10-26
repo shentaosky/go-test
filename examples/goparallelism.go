@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"os/signal"
 	"runtime"
 	"sync"
 	"time"
@@ -27,7 +26,6 @@ func main() {
 		go testParalellism(wg)
 	}
 
-	signal.Notify()
 	wg.Wait()
 	fmt.Println(time.Now())
 }
